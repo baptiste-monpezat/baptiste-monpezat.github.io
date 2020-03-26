@@ -23,14 +23,12 @@ install:
 
 script:
   - set -e
-  - npm run test
-  - npm run test:e2e:ci
   - npm run build
 
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: $GITHUB_TOKEN
+  github_token: $GH_TOKEN
   local_dir: public
   target_branch: master
   on:
