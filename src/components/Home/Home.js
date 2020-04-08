@@ -61,7 +61,7 @@ const Home = () => {
               <IconLink label="twitter" icon={["fab", "twitter"]} href="//twitter.com/Mnpzat" />
               <IconLink label="medium" icon={["fab", "medium"]} href="//medium.com/@baptiste.monpezat" />
               <IconLink label="linkedin" icon={["fab", "linkedin"]} href="//fr.linkedin.com/in/baptiste-monpezat-898074129" />
-              <IconLink label="linkedin" icon={["fab", "kaggle"]} href="//www.kaggle.com/baptistemonpezat" />             
+              <IconLink label="kaggle" icon={["fab", "kaggle"]} href="//www.kaggle.com/baptistemonpezat" />             
             </div>
           </div>
         </div>
