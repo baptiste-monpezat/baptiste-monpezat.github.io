@@ -16,7 +16,7 @@ const social = {
 const website = {
   ...meta,
   ...social,
-  disqusShortName: 'baptistemonpezat',  
+  disqusShortName: 'baptiste-monpezat',  
   googleAnalyticsID: 'UA-163163719-1',
   // Manifest
   themeColor: '#6D83F2',
