@@ -16,6 +16,7 @@ module.exports = {
       options: {
         plugins: [
           `gatsby-remark-embedder`,
+          'gatsby-remark-copy-relative-linked-files',
           {
             resolve: `gatsby-remark-autolink-headers`,
             options: {
@@ -23,6 +24,12 @@ module.exports = {
               maintainCase: true,
               removeAccents: true,
             },
+          },
+          {
+            resolve: `gatsby-remark-katex`,
+            options: {
+              strict: `ignore`
+            }
           },
           {
             resolve: `gatsby-remark-prismjs`,

@@ -1,5 +1,7 @@
 import React from "react";
 import { graphql } from "gatsby"
+import "katex/dist/katex.min.css"
+
 
 import SEO from "#components/seo";
 import Layout from "#components/Layout/Layout"
