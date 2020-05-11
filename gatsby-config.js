@@ -16,6 +16,13 @@ module.exports = {
       options: {
         plugins: [
           `gatsby-remark-embedder`,
+          {
+            resolve: "gatsby-remark-images",
+            options: {
+              maxWidth: 590,
+              showCaptions: true
+            },
+          },
           'gatsby-remark-copy-relative-linked-files',
           {
             resolve: `gatsby-remark-autolink-headers`,
@@ -24,12 +31,6 @@ module.exports = {
               maintainCase: true,
               removeAccents: true,
             },
-          },
-          {
-            resolve: `gatsby-remark-katex`,
-            options: {
-              strict: `ignore`
-            }
           },
           {
             resolve: `gatsby-remark-prismjs`,
@@ -41,14 +42,13 @@ module.exports = {
               noInlineHighlight: false,
             }
           },
+          `gatsby-plugin-social-banners`,
           {
-            resolve: `gatsby-remark-images`,
+            resolve: `gatsby-remark-katex`,
             options: {
-              maxWidth: 590,
-              showCaptions: true
+              strict: `ignore`
             }
           },
-          `gatsby-plugin-social-banners`
         ]
       }
     },
