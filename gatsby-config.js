@@ -23,6 +23,7 @@ module.exports = {
               showCaptions: true
             },
           },
+          'gatsby-remark-copy-linked-files',
           'gatsby-remark-copy-relative-linked-files',
           {
             resolve: `gatsby-remark-autolink-headers`,
