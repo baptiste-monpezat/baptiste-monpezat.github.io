@@ -15,7 +15,7 @@ import SplitLayout from "#components/common/SplitLayout";
 import { InfoTitle, CaseStudyWrapper } from './case-study.style';
 
 const CaseStudy = ({ data }) => {
-  const baseSlugUrl = "https://anuraghazra.github.io" + data.markdownRemark.fields.slug;
+  const baseSlugUrl = "https://baptiste-monpezat.github.io/" + data.markdownRemark.fields.slug;
   const study = data.markdownRemark.frontmatter;
 
   const infoLinks = (
