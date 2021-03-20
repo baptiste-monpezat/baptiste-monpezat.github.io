@@ -27,9 +27,9 @@ script:
 
 deploy:
   provider: pages
+  edge: true
   skip_cleanup: true
   github_token: $GH_TOKEN
-  token: $TRAVIS_DEPLOY_TOKEN,
   local_dir: public
   target_branch: master
   on:
