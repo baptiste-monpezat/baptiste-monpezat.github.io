@@ -2,7 +2,7 @@
 title: Twitter Hashtags top trends with Spark Streaming.
 excerpt: How to deal with live streaming data ? I built a streaming pipeline with spark that processes live tweets coming from the twitter api.The stream processing extracts hashtags from tweets and count them in a 10 minutes window. The count is then sent to the front-end to visualize Hashtags top trends.Doing this project, I learned a lot about spark, docker as well as nginx for web proxy. 
 
-iframe: //baptiste-monpezat.github.io/twitter-hashtags/
+iframe: //www.youtube.com/embed/JcWxyNYIgsM
 demo: //baptiste-monpezat.github.io/twitter-hashtags/
 src: //github.com/baptiste-monpezat/pyspark-twitter-stream
 
