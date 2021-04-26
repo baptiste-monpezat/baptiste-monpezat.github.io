@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /goodies
+Sitemap: https://baptiste-monpezat.github.io/sitemap.xml
+Host: https://baptiste-monpezat.github.io
