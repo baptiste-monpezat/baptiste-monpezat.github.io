@@ -39,10 +39,10 @@ export const CodeCard = () => {
       <pre>1    class <b>Person</b>: </pre>
       <pre>2          def __init__(self):</pre>
       <pre>3              self.name = "<b>Monpezat</b>"</pre>
-      <pre>4              self.surname = "<b>Baptiste</b>"</pre>     
-      <pre>5              self.passions = ["<b>Data Science</b>", "<b>Programming</b>"]</pre>
-      <pre>6              self.age = <b>26</b></pre>
-      <pre>7              self.country = <b>France</b></pre>
+      <pre>4              self.surname = "<b>Baptiste</b>"</pre>
+      <pre>5              self.passions = ["<b>Data Science</b>", "<b>Tennis</b>"]</pre>
+      <pre>6              self.age = <b>29</b></pre>
+      <pre>7              self.city = <b>Bordeaux</b></pre>
       <pre>8  </pre>
     </CodeCardWrapper>
   )

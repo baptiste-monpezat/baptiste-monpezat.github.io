@@ -1,5 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 import svgRect from '#src/static/home_rect.svg'
 
 import { HeroCard } from './HeroCard';
@@ -18,7 +19,17 @@ const ThingsILove = () => (
       <CardIcon><FontAwesomeIcon icon="vial" /></CardIcon>
       <CardTitle>Data Science</CardTitle>
       <CardText>
-      Turning a high volume of data into key insights and make them speak is what I do !
+        I'm captivated by the power of data science to unlock hidden patterns and insights.<br />
+        It's a tool that transforms raw data into meaningful information, fueling informed decisions and innovative solutions.
+      </CardText>
+    </Card>
+
+    <Card>
+      <CardIcon><FontAwesomeIcon icon="baseball-ball" /></CardIcon>
+      <CardTitle>Sport Analytics</CardTitle>
+      <CardText>
+        As a tennis enthusiast, I find the application of data science in sports thrilling.<br />
+        It's a game-changer, enhancing performance, strategy, and understanding of the game.
       </CardText>
     </Card>
 
@@ -26,16 +37,8 @@ const ThingsILove = () => (
       <CardIcon><FontAwesomeIcon icon="code" /></CardIcon>
       <CardTitle>Programming</CardTitle>
       <CardText>
-      I love to solve problems with lines of code.
-      Programming is a philosophy and the only limit is my imagination.
-      </CardText>
-    </Card>
-
-    <Card>
-      <CardIcon><FontAwesomeIcon icon="paint-brush" /></CardIcon>
-      <CardTitle>Fun projects</CardTitle>
-      <CardText>
-      I enjoy making projects and sharing what I have learned with you. Practices make perfect.
+        The art of coding is like a creative puzzle to me.<br />
+        It's the backbone of all digital solutions, enabling us to build, innovate, and explore the limitless world of technology.
       </CardText>
     </Card>
   </Flex>
@@ -51,7 +54,7 @@ const Home = () => {
         <div className="home__text">
           <p>Hello, i’m</p>
           <h1>Baptiste Monpezat</h1>
-          <p className="adjust">Data Scientist</p>
+          <p className="adjust">Senior Data Scientist</p>
 
           <div className="home__CTA">
             <Button className="cta" as="a" href="#">Download Resume</Button>
@@ -61,7 +64,7 @@ const Home = () => {
               <IconLink label="twitter" icon={["fab", "twitter"]} href="//twitter.com/Mnpzat" />
               <IconLink label="medium" icon={["fab", "medium"]} href="//medium.com/@baptiste.monpezat" />
               <IconLink label="linkedin" icon={["fab", "linkedin"]} href="//fr.linkedin.com/in/baptiste-monpezat-898074129" />
-              <IconLink label="kaggle" icon={["fab", "kaggle"]} href="//www.kaggle.com/baptistemonpezat" />             
+              <IconLink label="kaggle" icon={["fab", "kaggle"]} href="//www.kaggle.com/baptistemonpezat" />
             </div>
           </div>
         </div>

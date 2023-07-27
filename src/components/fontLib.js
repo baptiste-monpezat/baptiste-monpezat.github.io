@@ -17,12 +17,13 @@ import {
   faMedium,
   faLinkedin,
   faKaggle,
-  faAws, 
+  faAws,
   faDocker
 } from '@fortawesome/free-brands-svg-icons'
 import {
   faPaintBrush,
   faCode,
+  faBaseballBall,
   faWindowMaximize,
   faHandshake,
   faPaperPlane,
@@ -37,12 +38,13 @@ import {
   faEdit,
   faVial,
   faDatabase
-  
+
 } from '@fortawesome/free-solid-svg-icons'
 
 library.add(
   faGithub,
   faDribbble,
+  faBaseballBall,
   faTwitter,
   faFacebook,
   faReddit,

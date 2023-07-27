@@ -14,7 +14,7 @@ module.exports = async ({ markdownNode }) => {
     jimp.loadFont(path.join(__dirname, './src/fonts/montserrat.fnt')),
     jimp.loadFont(path.join(__dirname, './src/fonts/karla-26-regular.fnt'))
   ]);
-  
+
   image.resize(1200, 630)
     .print(montserrat, 139, 231, {
       text: frontmatter.title,
@@ -22,7 +22,7 @@ module.exports = async ({ markdownNode }) => {
       alignmentY: jimp.VERTICAL_ALIGN_MIDDLE
     }, 921, 179)
     .print(karla, 0, 434, {
-      text: `${dateformat(frontmatter.date, 'mmmm d, yyyy')}  |  Anurag Hazra`,
+      text: `${dateformat(frontmatter.date, 'mmmm d, yyyy')}  |  Baptiste Monpezat`,
       alignmentX: jimp.HORIZONTAL_ALIGN_CENTER,
       alignmentY: jimp.VERTICAL_ALIGN_MIDDLE
     }, 1200, 44)

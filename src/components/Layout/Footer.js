@@ -26,13 +26,7 @@ const FooterWrapper = styled.footer`
 const Footer = () => (
   <FooterWrapper>
     <Wrapper>
-      <img width="35px" src={logo} alt="anurag hazra" />
-      <p
-        style={{ float: 'right' }}
-      >
-        Made with<a href="https://gatsbyjs.org" target="__blank">&nbsp;gatsby&nbsp;</a>
-        designed by Anurag Hazra
-      </p>
+      <img width="35px" src={logo} alt="baptiste monpezat" />
     </Wrapper>
   </FooterWrapper>
 )

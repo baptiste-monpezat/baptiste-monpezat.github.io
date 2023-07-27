@@ -17,7 +17,7 @@ const NavDesktop = () => {
   return (
     <>
       <SLink className="logo" smooth offset={-100} hashSpy={true} to="home">
-        <img src={logo} alt="Anurag Hazra" />
+        <img src={logo} alt="Baptiste Monpezat" />
       </SLink>
 
       <nav>
